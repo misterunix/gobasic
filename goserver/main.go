@@ -23,10 +23,10 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/skx/gobasic/builtin"
-	"github.com/skx/gobasic/eval"
-	"github.com/skx/gobasic/object"
-	"github.com/skx/gobasic/tokenizer"
+	"github.com/misterunix/gobasic/builtin"
+	"github.com/misterunix/gobasic/eval"
+	"github.com/misterunix/gobasic/object"
+	"github.com/misterunix/gobasic/tokenizer"
 
 	_ "embed" // embedded-resource magic
 )

@@ -7,7 +7,7 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/skx/gobasic/object"
+	"github.com/misterunix/gobasic/object"
 )
 
 type bufferEnv struct {

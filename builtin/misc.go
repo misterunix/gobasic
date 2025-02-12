@@ -9,7 +9,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/skx/gobasic/object"
+	"github.com/misterunix/gobasic/object"
 )
 
 // DUMP just displays the only argument it received.

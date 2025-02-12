@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/skx/gobasic/eval"
-	"github.com/skx/gobasic/token"
-	"github.com/skx/gobasic/tokenizer"
+	"github.com/misterunix/gobasic/eval"
+	"github.com/misterunix/gobasic/token"
+	"github.com/misterunix/gobasic/tokenizer"
 )
 
 // This version-string will be updated via travis for generated binaries.

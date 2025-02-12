@@ -11,7 +11,6 @@
 // 3. Retrieving the contents of BASIC values back to golang.
 //
 // Being standalone should make it simple to understand.
-//
 package main
 
 import (
@@ -22,17 +21,16 @@ import (
 	"image/png"
 	"os"
 
-	"github.com/skx/gobasic/builtin"
-	"github.com/skx/gobasic/eval"
-	"github.com/skx/gobasic/object"
-	"github.com/skx/gobasic/tokenizer"
+	"github.com/misterunix/gobasic/builtin"
+	"github.com/misterunix/gobasic/eval"
+	"github.com/misterunix/gobasic/object"
+	"github.com/misterunix/gobasic/tokenizer"
 )
 
 // img holds a canvas.
 //
 // The BASIC program embedded in this program will draw upon an image
 // this is the actual image they draw upon.
-//
 var img *image.RGBA
 
 // peekFunction is the golang implementation of the PEEK primitive,

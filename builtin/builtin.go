@@ -7,14 +7,13 @@
 //
 // Examples of extending the interpreter exist within the `goserver/`
 // and `embed/` packages within the distribution.
-//
 package builtin
 
 import (
 	"bufio"
 	"sync"
 
-	"github.com/skx/gobasic/object"
+	"github.com/misterunix/gobasic/object"
 )
 
 // Signature is the signature of a builtin-function.
@@ -49,11 +48,12 @@ func New() *Builtins {
 
 // Register records a built-in function.
 // The three arguments are:
-//  NAME  - The thing that the BASIC program will call
-//  nARGS - The number of arguments the built-in requires.
-//          NOTE: Arguments are comma-separated in the BASIC program,
-//          but commas are stripped out.
-//  FT    - The function which provides the implementation.
+//
+//	NAME  - The thing that the BASIC program will call
+//	nARGS - The number of arguments the built-in requires.
+//	        NOTE: Arguments are comma-separated in the BASIC program,
+//	        but commas are stripped out.
+//	FT    - The function which provides the implementation.
 func (b *Builtins) Register(name string, nArgs int, ft Signature) {
 	b.lock.Lock()
 	defer b.lock.Unlock()

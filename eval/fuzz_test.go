@@ -12,7 +12,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/skx/gobasic/tokenizer"
+	"github.com/misterunix/gobasic/tokenizer"
 )
 
 func FuzzEval(f *testing.F) {

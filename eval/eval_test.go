@@ -7,9 +7,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/skx/gobasic/object"
-	"github.com/skx/gobasic/token"
-	"github.com/skx/gobasic/tokenizer"
+	"github.com/misterunix/gobasic/object"
+	"github.com/misterunix/gobasic/token"
+	"github.com/misterunix/gobasic/tokenizer"
 )
 
 // TestBuiltin covers some of our builtins, however it doesn't test

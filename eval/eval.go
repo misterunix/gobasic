@@ -21,10 +21,10 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/skx/gobasic/builtin"
-	"github.com/skx/gobasic/object"
-	"github.com/skx/gobasic/token"
-	"github.com/skx/gobasic/tokenizer"
+	"github.com/misterunix/gobasic/builtin"
+	"github.com/misterunix/gobasic/object"
+	"github.com/misterunix/gobasic/token"
+	"github.com/misterunix/gobasic/tokenizer"
 )
 
 // userFunction is a structure that holds one entry for each user-defined function.
