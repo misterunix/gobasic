@@ -1,3 +1,3 @@
-module github.com/skx/gobasic
+module github.com/misterunix/gobasic
 
 go 1.17
